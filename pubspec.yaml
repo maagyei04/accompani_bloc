@@ -1,0 +1,59 @@
+name: accompani_bloc
+description: "Accompani App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  fpdart: ^1.1.0
+  rive: ^0.13.1
+  firebase_auth: ^4.18.0
+  firebase_core: ^2.27.2
+  firebase_storage: ^11.6.11
+  cloud_firestore: ^4.15.10
+  google_fonts: ^6.2.1
+  flutter_bloc: ^8.1.5
+  get_it: ^7.6.7
+  gotrue: ^2.5.1
+  flutter_native_splash: ^2.4.0
+  flutter_stepindicator: ^0.1.7
+  image_picker: ^1.0.8
+  video_player: ^2.8.6
+  intl_phone_number_field: ^0.1.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+## -- SPLASHSCREEN CONFIG
+flutter_native_splash:
+  color: "#fcfcfc"
+  color_dark: "#272727"
+  image: assets/logo/accompani.png
+  image_dark: assets/logo/accompani.png
+  web: true
+
+  android_12:
+    image: assets/logo/accompani.png
+    icon_background_color: "#fcfcfc"
+    image_dark: assets/logo/accompani.png
+    icon_background_color_dark: "#272727"  
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/
+   - assets/logo/
+   - assets/images/welcome_images/
+   - assets/videos/
+   - assets/rive/
